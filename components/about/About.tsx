@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { aboutImageSrc } from '@/lib/data'
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div className="relative aspect-[3/4] bg-stone-200 overflow-hidden">
           <Image
-            src="/images/about.jpg"
+            src={aboutImageSrc}
             alt="Portrait of the creative director"
             fill
             className="object-cover"

@@ -18,7 +18,7 @@ export const editorialItems: EditorialItem[] = [
     category: 'Campaign',
     title: 'Luminance — Spring Collection',
     imageAlt: 'Model wearing soft neutrals against marble backdrop',
-    imageSrc: '/images/editorial-1.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80',
     span: 'wide',
   },
   {
@@ -26,7 +26,7 @@ export const editorialItems: EditorialItem[] = [
     category: 'Portrait',
     title: 'The Artist at Rest',
     imageAlt: 'Close portrait with dramatic side lighting',
-    imageSrc: '/images/editorial-2.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80',
     span: 'tall',
   },
   {
@@ -34,21 +34,21 @@ export const editorialItems: EditorialItem[] = [
     category: 'Editorial',
     title: 'Botanica',
     imageAlt: 'Beauty editorial with floral arrangements',
-    imageSrc: '/images/editorial-3.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80',
   },
   {
     id: '4',
     category: 'Campaign',
     title: 'Nocturne Fragrance',
     imageAlt: 'Fragrance campaign in candlelit studio',
-    imageSrc: '/images/editorial-4.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=1200&q=80',
   },
   {
     id: '5',
     category: 'Runway',
     title: 'SS25 Beauty — London Fashion Week',
     imageAlt: 'Backstage runway beauty at London Fashion Week',
-    imageSrc: '/images/editorial-5.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&q=80',
     span: 'wide',
   },
   {
@@ -56,9 +56,11 @@ export const editorialItems: EditorialItem[] = [
     category: 'Portrait',
     title: 'Still Life',
     imageAlt: 'Minimalist portrait, natural light',
-    imageSrc: '/images/editorial-6.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1200&q=80',
   },
 ]
+
+export const aboutImageSrc = 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=80'
 
 export const services: Service[] = [
   {
