@@ -18,7 +18,7 @@ function InstagramIcon() {
   )
 }
 
-function LinkedInIcon() {
+function FacebookIcon() {
   return (
     <svg
       width="20"
@@ -31,16 +31,33 @@ function LinkedInIcon() {
       strokeLinejoin="round"
       aria-hidden="true"
     >
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect x="2" y="9" width="4" height="12" />
-      <circle cx="4" cy="4" r="2" />
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+    </svg>
+  )
+}
+
+function TikTokIcon() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
     </svg>
   )
 }
 
 const socialLinks = [
-  { label: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
-  { label: 'LinkedIn', href: 'https://linkedin.com', icon: LinkedInIcon },
+  { label: 'Instagram', href: 'https://instagram.com/thebeautyeditbymeg', icon: InstagramIcon },
+  { label: 'Facebook', href: 'https://facebook.com/thebeautyeditbymeg', icon: FacebookIcon },
+  { label: 'TikTok', href: 'https://tiktok.com/@thebeautyeditbymeg', icon: TikTokIcon },
 ]
 
 export default function ContactSection() {
@@ -59,10 +76,10 @@ export default function ContactSection() {
             <em className="not-italic text-rose-300">beautiful.</em>
           </h2>
           <a
-            href="mailto:hello@thebeautyedit.co.uk"
+            href="mailto:thebeautyeditbymeg@gmail.com"
             className="inline-block text-xs tracking-widest uppercase border border-stone-50 text-stone-50 px-10 py-4 hover:bg-stone-50 hover:text-stone-900 transition-colors"
           >
-            hello@thebeautyedit.co.uk
+            thebeautyeditbymeg@gmail.com
           </a>
         </div>
         <div className="flex flex-col gap-4">
