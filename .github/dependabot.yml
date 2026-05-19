@@ -1,0 +1,26 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+    groups:
+      patch:
+        patterns:
+          - "patch"
+      minor:
+        patterns:
+          - "minor"
+      major:
+        patterns:
+          - "major"
+    open-pull-requests-limit: 3
+    minimum-change-frequency:
+      interval: "weekly"
+      except: "security"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 3
