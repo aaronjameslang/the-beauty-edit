@@ -5,6 +5,6 @@ export const dynamic = 'force-static'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: 'https://DOMAIN_PLACEHOLDER/sitemap.xml',
+    sitemap: 'https://aaronjamesla.ng/the-beauty-edit/sitemap.xml',
   }
 }

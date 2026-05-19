@@ -12,10 +12,10 @@ const playfair = Playfair_Display({
   subsets: ['latin'],
 })
 
-const siteUrl = 'https://DOMAIN_PLACEHOLDER'
+const siteUrl = 'https://aaronjamesla.ng/the-beauty-edit'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL('https://aaronjamesla.ng'),
   title: 'The Beauty Edit',
   description: 'Beauty, considered. London-based creative direction studio specialising in beauty storytelling for editorial, campaign, and runway.',
   openGraph: {
@@ -25,13 +25,11 @@ export const metadata: Metadata = {
     siteName: 'The Beauty Edit',
     type: 'website',
     locale: 'en_GB',
-    images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: 'The Beauty Edit' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Beauty Edit',
     description: 'Beauty, considered.',
-    images: ['/opengraph-image.png'],
   },
 }
 
