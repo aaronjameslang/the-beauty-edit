@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'The Beauty Edit',
   description: 'Beauty, considered. London-based creative direction studio specialising in beauty storytelling for editorial, campaign, and runway.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'The Beauty Edit',
     description: 'Beauty, considered. London-based creative direction studio specialising in beauty storytelling for editorial, campaign, and runway.',

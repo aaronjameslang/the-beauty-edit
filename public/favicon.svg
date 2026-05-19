@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1c1917" stroke-width="2"/>
+
+  <!-- Elegant BE letters -->
+  <text x="100" y="100" font-family="Georgia, serif" font-size="90" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#1c1917" letter-spacing="-2">BE</text>
+
+  <!-- Rose accent line -->
+  <line x1="60" y1="135" x2="140" y2="135" stroke="#fda4af" stroke-width="2" stroke-linecap="round"/>
+</svg>
