@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 const siteUrl = 'https://aaronjamesla.ng/the-beauty-edit'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aaronjamesla.ng'),
+  metadataBase: new URL(siteUrl),
   title: 'The Beauty Edit',
   description: 'Beauty, considered. London-based creative direction studio specialising in beauty storytelling for editorial, campaign, and runway.',
   openGraph: {
